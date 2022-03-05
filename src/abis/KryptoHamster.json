@@ -17,7 +17,8 @@
         }
       ],
       "stateMutability": "view",
-      "type": "function"
+      "type": "function",
+      "constant": true
     },
     {
       "inputs": [],
@@ -30,7 +31,8 @@
         }
       ],
       "stateMutability": "view",
-      "type": "function"
+      "type": "function",
+      "constant": true
     }
   ],
   "metadata": "{\"compiler\":{\"version\":\"0.8.12+commit.f00d7308\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"constructor\"},{\"inputs\":[],\"name\":\"name\",\"outputs\":[{\"internalType\":\"string\",\"name\":\"\",\"type\":\"string\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"symbol\",\"outputs\":[{\"internalType\":\"string\",\"name\":\"\",\"type\":\"string\"}],\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"project:/src/contracts/KryptoHamster.sol\":\"KryptoHamster\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"project:/src/contracts/KryptoHamster.sol\":{\"keccak256\":\"0x954badd297973efd702492039c466f650fcec6b7f708bebf599ae4e520502f43\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://ad066e802e6087dca40ec750f5995b3a7d4e803156da90f4881ccc3f8a1731d0\",\"dweb:/ipfs/QmanUT1wrfjYGbU6WnJXV2aJxKQTPwPR7V6mABNJzG5Sg2\"]}},\"version\":1}",
@@ -1689,9 +1691,17 @@
     "name": "solc",
     "version": "0.8.12+commit.f00d7308.Emscripten.clang"
   },
-  "networks": {},
+  "networks": {
+    "5777": {
+      "events": {},
+      "links": {},
+      "address": "0x2E379a9870c4e9215F5981E055c7eaca644B887a",
+      "transactionHash": "0xcab79cca2cbb14dea5809eda42284ec445e5d62ddf57a8cbdaac6f6cde935ee4"
+    }
+  },
   "schemaVersion": "3.4.5",
-  "updatedAt": "2022-03-05T22:08:39.843Z",
+  "updatedAt": "2022-03-05T22:12:26.355Z",
+  "networkType": "ethereum",
   "devdoc": {
     "kind": "dev",
     "methods": {},
