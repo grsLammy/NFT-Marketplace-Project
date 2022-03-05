@@ -1,13 +1,11 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.0;
 
-contract KryptoHamster {
+import "./ERC721Connector.sol";
 
-    string public name;
-    string public symbol;
+contract KryptoHamster is ERC721Connector {
 
-    constructor () {
-        name = "Krypto Hammy";
-        symbol = "HAMI";
+    constructor() ERC721Connector("KryptoHamster","HAMI") {
+        
     }
 }
