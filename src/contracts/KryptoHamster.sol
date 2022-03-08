@@ -26,7 +26,7 @@ contract KryptoHamster is ERC721Connector {
         uint _id = kryptoHamsters.length - 1;
 
         // Mint ERC721 Token 
-        _mintToken(msg.sender, _id);
+        _mint(msg.sender, _id);
 
         // Set doesExists true for the token
         _doesExists[_kryptoHamster] = true;
